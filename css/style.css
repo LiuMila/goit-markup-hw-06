@@ -33,7 +33,7 @@ img{display: block;}
 .container{width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid;
+    outline: 1px solid none;
     margin: 0 auto;
 
 }
