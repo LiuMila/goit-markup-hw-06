@@ -597,8 +597,8 @@ color: #2E2F42;
 margin-bottom: 14px;
 }
 
-.modal-input:focus  .input-icon-i{
-    fill:var(--white-color);
+.modal-input:focus  +.input-icon .input-icon-i{
+    fill:var(--span-color);
 }
 
 .modal-textarea {width: 100%;
@@ -670,18 +670,17 @@ margin-bottom: 24px;
 
 }
 .link-policy{color:#4D5AE5;}
-.modal-submit {font-family: inherit;
+.modal-submit {height: 56px;
+    min-width: 169px ;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--white-color);
     background: var(--span-color);
     border-color: var(--span-color);
-    padding: 16px 32px;
-    min-width: 169px ;
 
  display: block;
  margin: 0 auto;
